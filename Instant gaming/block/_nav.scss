@@ -1,0 +1,21 @@
+.nav{
+    color:white;
+    @include flex(row,center,center);
+    position: sticky;
+    top: 0;
+
+    &__bar{
+        padding-left: 8px;
+        padding-right: 8px;
+        @include flex(row,space-between,center);
+        grid-gap: 10px;
+        
+    }
+    .search__button{
+        @include flex(row,center,center);
+        background-color: #FF620F;
+        border-radius: 40px;
+        height: 48px;
+        width: 48px;
+    }
+}

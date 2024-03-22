@@ -1,0 +1,14 @@
+.header{
+    background-color: #131010;
+    color: white;
+    @include flex(row,space-evenly,center);
+
+    &__div1{
+        background-color: #131010;
+    }
+
+    &__div2{
+        background-color: #131010;
+        padding-right: 32px;
+    }
+}

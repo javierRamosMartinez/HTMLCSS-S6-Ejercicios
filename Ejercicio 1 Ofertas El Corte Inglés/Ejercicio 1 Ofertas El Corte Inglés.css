@@ -1,0 +1,151 @@
+
+header{
+    display: flex;
+    background-color: #F7F7F7;
+}
+.c_gray{
+    color: #777777;
+}
+.headerNav{
+    display: flex;
+    flex-direction: row;
+}
+.horiz_icon_text{
+    display: flex;
+    align-items: center;
+    margin: 0px 8px;
+}
+.s_horiz_space{
+    margin-right: 8px;
+}
+.sticky_nav{
+    display: flex;
+    position: sticky;
+    top: 0;
+    justify-content: space-between;
+    background-color: white;
+    width: 90%;
+}
+.vert_icon_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px;
+}
+.bcg_green{
+    background-color: #67B501;
+}
+.c_white{
+    color: white;
+}
+.green_stroke{
+    border-bottom: 4px solid #67B501;
+}
+.filtros{
+    display: flex;
+    justify-content: space-around;
+}
+.vert_separator{
+    height: 48px;
+}
+.desplegable{
+    display: flex;
+    align-items: center;
+    padding: 2px 12px;
+
+}
+.c_green{
+    color: #67B501;
+}
+body{
+background-color: #F7F7F7;
+}
+
+.card{
+    background-color: #ffffff;
+    display: inline-block;
+    width: 45%;
+    margin: 12px;
+    
+}
+.card_img{
+    display: inline-block;
+    max-width: 100%;
+}
+.encoger{
+    width: 100%;
+}
+.price_div{
+    display:flex;
+    flex-direction: column;
+}
+.b_text{
+    font-size: 32px;
+}
+.info_btn{
+    display: flex;
+    align-items: center;
+    border: 2px solid #67B501;
+}
+.card_bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.card_sin_img{
+    padding: 14px;
+}
+.galery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 70%;
+}
+.ancho_pag{
+    max-width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ancho_pag_header{
+    max-width: 90%;
+    display: flex;
+    justify-content: center;
+}
+body{
+    width: 100vw ;
+}
+.u_column_centre{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    
+}
+.columna1{
+    margin-right: 40px;
+}
+.info_ofertas{
+    display: flex;
+    width: 90%;
+    justify-content: center;
+}
+.ancho{
+    width: 90%;
+    background-color: #ffffff;
+    padding: 24px;
+}
+.green_icon{
+    color: #67B501;
+}
+.paginas{
+ display: flex;  
+ justify-content: center;
+  
+}
+.uno{
+    width: 132px;
+}
+.line{
+    width: 1px;
+    background-color:#7F7F7F ;
+}

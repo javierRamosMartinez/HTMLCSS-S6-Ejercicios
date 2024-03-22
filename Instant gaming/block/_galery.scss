@@ -1,0 +1,28 @@
+.galery{
+    color: white;
+    @include flex(row,flex-start,flex-start);
+    flex-wrap: wrap;
+    width: 80%;
+    margin-left: 10%;
+    
+
+    
+    &__card{
+        display: flex;
+        width: 30%;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 1%;
+
+        &__text{
+            display: flex;
+            justify-content: space-between;
+            padding: 6px 10px;
+        }
+    }
+}
+.galery__title{
+    color: white;
+    margin: 8px;
+    margin-left: 10%;
+    }

@@ -1,0 +1,38 @@
+.c__orange{
+    color: #FF5913;
+}
+.font{
+    font-size: 64px;
+}
+.banner2{
+    background-color: #101010;
+    height: 96px;
+    width: 80%;
+    padding-left:10%;
+    padding-right:10%; 
+    @include flex(row,flex-start,center);
+
+    &__section{
+        @include flex(row,flex-start,center);
+        width: 25%;
+        
+
+        &__texts{
+            display: flex;
+            flex-wrap: wrap;
+            
+            flex-direction: row;
+
+            &__big{
+                width: 100%;
+                
+            }
+
+            &__small{
+                width: 100%;
+                color: #999999;
+
+            }
+        }
+    }
+}
